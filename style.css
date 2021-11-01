@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("images/mtn-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  overflow: hidden;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  height: 300px;
+  width: 300px;
+  position: relative;
+  transform: scale(1);
+}
+
+.circle {
+  background-color: #011940;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.gradient-circle {
+  background: conic-gradient(
+    #557dbd 0%,
+    #638fd6 40%,
+    #ccc 40%,
+    #ccc 60%,
+    #244c8c 60%,
+    #3c557d 100%
+  );
+  height: 320px;
+  width: 320px;
+  z-index: -2;
+  border-radius: 50%;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+}
