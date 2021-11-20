@@ -65,10 +65,11 @@ body {
 }
 
 .pointer {
-  background-color: #d1e3ff;
-  border-radius: 50%;
-  height: 20px;
-  width: 20px;
+  opacity: 0.7;
+  background: linear-gradient(#65abe6, transparent);
+  border-radius: 50% 50% 0% 0%;
+  height: 30px;
+  width: 5px;
   display: block;
 }
 
